@@ -33,7 +33,7 @@ jobs:
 
       - name: Get the SGSI tool‌‌...
         run: |
-          git clone --recurse-submodules https://github.com/As9124k82134/SGSI-Build-Tool.git -b main $GITHUB_WORKSPACE/Tool-SGSI-build
+          git clone --recurse-submodules https://github.com/xiaoxindada/SGSI-build-tool -b 11 $GITHUB_WORKSPACE/Tool-SGSI-build
 
       - name: Setup tool environment...
         run: |
